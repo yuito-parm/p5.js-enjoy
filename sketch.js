@@ -16,7 +16,7 @@ function draw() {
     y = lerp(y, mouseY, 0.1);
     fill(r, g, b,);
     noStroke();
-    ellipse(mouseX, mouseY, 50, 50);
+    ellipse(x, y, 50, 50);
 }
 
 function mousePressed() {
