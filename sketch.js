@@ -18,6 +18,5 @@ function draw() {
 
 
     fill(r, g, b);
-    noStroke();
     ellipse(x, y, 30, 30);  
 }
