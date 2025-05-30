@@ -14,9 +14,10 @@ function draw() {
         let r = 128 + sin(frameCount * 0.05 + i * 0.2) * 127;
         let g = 128 + sin(frameCount * 0.07 + i * 0.2 + PI / 3) * 127;
         let b = 128 + sin(frameCount * 0.09 + i * 0.2 + PI * 2 / 3) * 127;
+        
+        fill(r, g, b);
+        ellipse(x, y, 30, 30);  
     }
 
 
-    fill(r, g, b);
-    ellipse(x, y, 30, 30);  
 }
